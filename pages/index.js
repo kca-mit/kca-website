@@ -13,21 +13,21 @@ import '../css/fonts.css';
 import '../css/styles.less';
 
 import CoverImg from '../static/homepage.jpg';
-import ExcellenceImg from '../static/excellence.jpg';
-import RushImg from '../static/rush.jpg';
-import PartyImg from '../static/party.jpg';
+import ExcellenceImg from '../static/homepage.jpg';
+import RushImg from '../static/homepage.jpg';
+import PartyImg from '../static/homepage.jpg';
 
 export default class Index extends React.Component {
   render () {
     return (
       <DocumentTitle title={config.siteTitle}>
         <div>
-          <Splash id="homepage" additionalStyles={['linear-gradient(rgba(0, 86, 180, 0.45), rgba(0, 86, 180, 0.45))']} imageUrl={CoverImg}>
-            Zeta Beta Tau <br/>
-            Xi Chapter <br/>
+          <Splash id="homepage" additionalStyles={['linear-gradient(rgba(50, 13, 13, 0.45), rgba(50, 13, 13, 0.45))']} imageUrl={CoverImg}>
+            Korean Students Assoc. <br/>
+            <smaller>Massachusetts Institute of Technology</smaller> <br/>
             <Link className="call-to-action" to={prefixLink("/rush/")}>
               <span>
-                RUSH SCHEDULE
+                CULTURE SHOW
               </span>
             </Link>
           </Splash>

@@ -7,7 +7,7 @@ import '../css/markdown-styles'
 
 import '../analytics.js';
 
-import LogoImg from '../static/zbt-logo.png';
+import LogoImg from '../static/ksa-logo.png';
 
 module.exports = React.createClass({
   propTypes () {
