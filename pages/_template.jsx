@@ -46,15 +46,15 @@ module.exports = React.createClass({
 
 function Nav() {
   const links = [
-    'rush',
     'events',
-    'brothers',
-    'house',
-    'history',
-    'alumni',
+    'exec',
+    'commservice',
+    'misti korea',
+    'classes',
+    'contact',
   ];
 
-  const linkify = (x) => <Link key={x} className="flex-cell" to={prefixLink(`/${x}/`)}>{x.toUpperCase()}</Link>;
+  const linkify = (x) => <Link key={x} className="flex-cell" to={prefixLink(`/${x.replace(/ /g, '-')}/`)}>{x.toUpperCase()}</Link>;
   const leftLinks = links.slice(0, 3).map(linkify);
   const rightLinks = links.slice(3, 6).map(linkify);
 
