@@ -1,6 +1,6 @@
-# MIT ZBT Website 2016
+# MIT KSA Website 2016
 
-This is the source of the ZBT website hosted on MIT infrastructure at <zbt.mit.edu>.
+This is the source of the KSA website hosted on MIT infrastructure at <ksa.mit.edu>.
 
 The goal is to have a modern-looking, easy to deploy and develop, static website.
 
@@ -16,8 +16,8 @@ client-side interactivity.
 
 ## Goals
 
-- Provide a welcoming information about ZBT Xi Chapter to the wider MIT community
-- Have an up to date information about Rush and current brothers
+- Provide a welcoming information about MIT KSA to the wider MIT community
+- Have an up to date information about the Culture show and current exec team
 - Make the website usable on mobile (read: responsive design)
 
 ## Development
@@ -52,10 +52,10 @@ npm run lint
 
 ## Deployment
 
-The site is deployed on MIT Scripts, under the locker called `zbt`.
+The site is deployed on MIT Scripts, under the locker called `ksa`.
 
-Since it is a fraternity-owned locker, your MIT Kerberos account should be on
-the `zbt-webmaster@mit.edu` mailing list in order to upload files there.
+Since it is a club-owned locker, your MIT Kerberos account should be on
+the `ksa-exec@mit.edu` mailing list in order to upload files there.
 
 To deploy, just build files and put them into the Scripts root to be served
 as static files.
@@ -66,4 +66,4 @@ over `scp`.
 ---
 
 Web design and development by Slava Kim'19.
-Photography by John Chow'15.
+Photographs were borrowed from the KSA archive.
