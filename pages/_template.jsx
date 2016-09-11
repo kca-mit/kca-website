@@ -32,10 +32,9 @@ module.exports = React.createClass({
         {this.props.children}
         <footer className="flex">
           <span>
-            <div> MIT Zeta Beta Tau Xi Chapter 2016 </div>
-            <div> Photography by <a href="https://www.facebook.com/JohnWChow">John Chow</a> </div>
+            <div>MIT Korean Students Association</div>
             <div> Webdev by <a href="https://github.com/Slava">Slava Kim</a> </div>
-            <div> <a href="mailto:zbt-webmaster@mit.edu">Contact the tech-chair</a> </div>
+            <div> <a href="mailto:slv@mit.edu">Contact the web-master</a> </div>
           </span>
         </footer>
         </div>
