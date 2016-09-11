@@ -21,6 +21,7 @@ export default function (props) {
             <h1>Contact</h1>
             <p>Hello!</p>
             <p>For any inqueries you can email the exec team at: <a href="mailto:ksa-exec@mit.edu">ksa-exec@mit.edu</a></p>
+            <p>Follow KSA on Facebook for photos from the events and important announcements: <a href="https://www.facebook.com/MIT-KSA-198424940189002/">MIT KSA Facebook page.</a></p>
             <p>To report a typo on the website or make a suggestion, email the current web-master: <a href="mailto:slv@mit.edu">slv@mit.edu</a></p>
             <p>MIT KSA welcomes any donations. Please use the exec email listed above and contact us if you are interested to make a contribution to spreading Korean culture at MIT campus.</p>
           </div>
