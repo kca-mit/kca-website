@@ -22,6 +22,8 @@ export default function (props) {
           <Splash id="events" imageUrl={CoverImg}></Splash>
           <div className="contents typography">
             <h1>Events</h1>
+            <p>See the following calendar with the scheduled public events.</p>
+            <Calendar/>
           </div>
           <Row flipped id="gbm" imageUrl={GBMImg}>
             <h2>General Body Meetings</h2>
@@ -48,5 +50,11 @@ export default function (props) {
           </Row>
         </div>
       </DocumentTitle>
+  );
+}
+
+function Calendar () {
+  return (
+      <iframe id="events-calendar" src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;height=400&amp;wkst=2&amp;bgcolor=%23ffffff&amp;src=mitksaexec%40gmail.com&amp;color=%235F6B02&amp;ctz=America%2FNew_York" style={{borderWidth: 0, width: 800, height: 400}} width="800" height="400" frameBorder="0" scrolling="no"></iframe>
   );
 }
