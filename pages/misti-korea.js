@@ -9,19 +9,17 @@ import {
 } from './_sharedComponents'
 
 import { prefixLink } from '../utils/urls.js'
-import CoverImg from '../static/contact.jpg';
+import CoverImg from '../static/misti-korea-2.jpg';
 
 export default function (props) {
   return (
-      <DocumentTitle title={"Contact | " + config.siteTitle}>
+      <DocumentTitle title={"MISTI Korea | " + config.siteTitle}>
         <div>
-          <Splash id="contact" imageUrl={CoverImg}></Splash>
+          <Splash id="misti" imageUrl={CoverImg}></Splash>
           <div className="contents typography">
-            <h1>Contact</h1>
-            <p>Hello!</p>
-            <p>For any inqueries you can email the exec team at: <a href="mailto:ksa-exec@mit.edu">ksa-exec@mit.edu</a></p>
-            <p>To report a typo on the website or make a suggestion, email the current web-master: <a href="mailto:slv@mit.edu">slv@mit.edu</a></p>
-            <p>MIT KSA welcomes any donations. Please use the exec email listed above and contact us if you are interested to make a contribution to spreading Korean culture at MIT campus.</p>
+            <h1>MISTI Korea</h1>
+            <p>This page is under development.</p>
+      <p>TODO: Information about misti. pictures. links to misti website. testimony, how it can help you immerse in the korean culture.</p>
           </div>
         </div>
       </DocumentTitle>
