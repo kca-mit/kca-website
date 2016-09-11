@@ -13,9 +13,9 @@ import '../css/fonts.css';
 import '../css/styles.less';
 
 import CoverImg from '../static/homepage.jpg';
-import ExcellenceImg from '../static/homepage.jpg';
-import RushImg from '../static/homepage.jpg';
-import PartyImg from '../static/homepage.jpg';
+import EventsImg from '../static/cpw-3.jpg';
+import CultureShowImg from '../static/culture-show-2.jpg';
+import MistiImg from '../static/misti-korea.jpg';
 
 export default class Index extends React.Component {
   render () {
@@ -33,27 +33,28 @@ export default class Index extends React.Component {
           </Splash>
             <div className="contents">
               <div className="big-letters typography">
-                <p>ZBT has existed at MIT for over 100 years, and spent the last 50 of those nestled away at our home in Brookline. We are a brotherhood of over 50 members from across the United States and various foreign countries, representing a diverse array of majors at MIT and a broad range of on campus activities.</p>
+                <p>The Korean Students' Association exists as a non-political club to provide opportunities for Korean undergraduates at MIT to explore their common ethnic and cultural backgrounds and to promote the understanding of the Korean people and culture.</p>
+                <p>To this aim, it holds many social, cultural, athletic, and community service events throughout the year, open to the entire MIT community.</p>
+                <p>We’re here to help connect everyone interested in the Korean-American culture, good food, and great friends.</p>
               </div>
             </div>
             <hr/>
-            <Row id="excellence" imageUrl={ExcellenceImg}>
-              <h2>The Powerhouse of Excellence</h2>
-              <p>A fraternity is much more than a place to live or a social outlet for our brothers during their four years at MIT.</p>
-              <p>We remain dedicated to our reasons for being here, earning consistently high GPAs, doing over 1000 hours of community service, and raising over $1500 for Children's Miracle Network.</p>
-              <p><Link to={prefixLink("/history/")}>Read more on the history of Xi Chapter.</Link></p>
+            <Row id="culture-show" imageUrl={CultureShowImg}>
+              <h2>Culture Show</h2>
+              <p>Culture Show is the biggest event KSA organizes annually. We invite Korean students clubs from all schools in Boston to come and help us to introduce the wider MIT community to the Korean culture.</p>
+              <p>The every year features a unique theme, includes catered Korean dishes, games, performances by clubs like MIT Takewondo, Asian Dance Team, music bands from Berklee College of Music, MIT, Boston University, as well as other individual perfomers.</p>
+              <p><Link to={prefixLink("/events/")}>Find out more at the events page.</Link></p>
             </Row>
-            <Row flipped id="rush" imageUrl={RushImg}>
-              <h2>Rush ZBT!</h2>
-              <p>Rush is a week-long period at the start of the school year at MIT, when freshmen get to meet us and see all of the other fraternities and living options available to them.</p>
-              <p>We have all sorts of activities and mountains of FREE FOOD available for Rush, giving the freshmen the chance to really get to know us and have a fun time doing so.</p>
-              <p><Link to={prefixLink("/rush/")}>Check out the rush page for details.</Link></p>
+            <Row flipped id="events" imageUrl={EventsImg}>
+              <h2>General Body Meetings</h2>
+              <p>At regular meetings you have an opportunity to meet and hang out with other members. Another purpose of GBMs is to provide a time and place for new exec and cabinet elections.</p>
+              <p>KSA events are accompained by delicious Korean cultural dishes. Be sure to check out KSA events over Campus Preview Weekend, KBBQ on the week of orientation and gelato icecream at every General Body Meeting.</p>
+              <p><Link to={prefixLink("/events/")}>See more events during the school year.</Link></p>
             </Row>
-            <Row id="party" imageUrl={PartyImg}>
-              <h2>Come get to know us!</h2>
-              <p>No matter if you go to MIT, Harvard, Wellesley or BU - we welcome new friends to our house.</p>
-              <p>Come to events hosted at our house during the school year. We host traditional dance parties open to everyone, as well as classy invite-only Karaoke and desserts evenings called Soirees, and semi-annual formals for brothers and their dates.</p>
-              <p><Link to={prefixLink("/events/")}>See the events page</Link> to learn about the upcoming parties, dinners and gatherings.</p>
+            <Row id="misti" imageUrl={MistiImg}>
+              <h2>Immerse In Culture</h2>
+              <p>Looking to learn Korean language or about Korean culture? KSA partners with MIT foreign languages department and provides tutors for anyone taking Korean langauge classes at MIT. <Link to={prefixLink("/classes/")}>Check out the classes page to learn more.</Link></p>
+              <p>Thinking of going to Korea over IAP or summer? Read more about MISTI Korea and learn about other programs like GTL Korea at the <Link to={prefixLink("/misti-korea/")}>MISTI Korea page</Link>.</p>
             </Row>
         </div>
       </DocumentTitle>
