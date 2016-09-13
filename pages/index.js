@@ -25,7 +25,7 @@ export default class Index extends React.Component {
           <Splash id="homepage" additionalStyles={['linear-gradient(rgba(50, 13, 13, 0.45), rgba(50, 13, 13, 0.45))']} imageUrl={CoverImg}>
             Korean Students Assoc. <br/>
             <smaller>Massachusetts Institute of Technology</smaller> <br/>
-            <Link className="call-to-action" to={prefixLink("/rush/")}>
+            <Link className="call-to-action" to={prefixLink("/events/#culture-show-small")}>
               <span>
                 CULTURE SHOW
               </span>
