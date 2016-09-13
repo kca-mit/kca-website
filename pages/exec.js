@@ -21,7 +21,7 @@ const peopleSrc = [
   {id:"slava", img: require('../static/exec/slava.jpg'), name: 'Slava Kim', more: '(2019, Course 6-3) Webmaster'},
   {id:"yuree", img: require('../static/exec/yuree.jpg'), name: 'Yuree Kim', more: '(2019, Course 2) Publicity Chair'},
   {id:"helen", img: require('../static/exec/helen.jpg'), name: 'Helen Bang', more: '(2019, Course 6-3) Membership Chair'},
-  {id:"julia", img: require('../static/exec/julia.jpg'), name: 'Julia Lee', more: '(2019, Course 6-3) Social Chair'},
+  {id:"julia", img: require('../static/exec/julia.jpg'), name: 'Julia Lee', more: '(2019, Course 6-3) Athletic Chair'},
   {id:"ashley", img: require('../static/exec/ashley.jpg'), name: 'Ashley Lee', more: '(2019, Course 6-7) Culture Chair'},
 ];
 
