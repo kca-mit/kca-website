@@ -10,6 +10,7 @@ import {
 
 import { prefixLink } from '../utils/urls.js'
 import CoverImg from '../static/beach-exec.jpg';
+import StudyPoolImg from '../static/studypool-partner-badge.png';
 
 const peopleSrc = [
   {id:"jin", img: require('../static/exec/jin.jpg'), name: 'Jin Woo Kim', major: '(2018, Electrical Engineering and Computer Science)', position: 'President', more: `Grew up in Orange County, California. Loves to shoot a bow and arrows, and was a member of the 2014 US Archery Team/USA Junior Dream Team. Aiming for medical school. Involvements on campus include Camp Kesem at MIT, Phi Beta Epsilon fraternity, Red Cross, and MIT Archery Club. Favorite ice cream? Toscanini's Earl Grey.`},
@@ -41,6 +42,8 @@ export default function (props) {
           <div className="contents typography">
             <h1>MIT KSA Exec</h1>
             {people}
+            <div id="studypool"><img src={StudyPoolImg}/>
+              <div>Sponsored by Studypool, Homework Help</div></div>
           </div>
         </div>
       </DocumentTitle>
