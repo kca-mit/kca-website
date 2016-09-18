@@ -25,7 +25,7 @@ export default function (props) {
             <p>To report a typo on the website or make a suggestion, email the current web-master: <a href="mailto:slv@mit.edu">slv@mit.edu</a></p>
             <p>MIT KSA welcomes any donations. Please use the exec email listed above and contact us if you are interested to make a contribution to spreading Korean culture at MIT campus.</p>
           </div>
-          <a id="pusheen" href="https://www.youtube.com/watch?v=lJtHNEDnrnY"><img src={PusheenImg} height={50}/></a>
+          <a id="pusheen" href="https://www.youtube.com/watch?v=lJtHNEDnrnY"><img src={prefixLink(PusheenImg)} height={50}/></a>
         </div>
       </DocumentTitle>
   );
