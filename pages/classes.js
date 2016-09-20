@@ -10,6 +10,7 @@ import {
 
 import { prefixLink } from '../utils/urls.js'
 import CoverImg from '../static/hangul.jpg';
+import ClassesImg from '../static/korean-classes.jpg';
 
 export default function (props) {
   return (
@@ -23,6 +24,7 @@ export default function (props) {
             <p>TODO Information about volounteer classes https://sites.google.com/site/mitkoreanclass/</p>
             <p>KSA tutors</p>
             <p>Other korean culture clubs at MIT</p>
+            <img src={ClassesImg}/>
           </div>
         </div>
       </DocumentTitle>

@@ -22,6 +22,7 @@ export default function (props) {
           <Splash id="events" imageUrl={CoverImg}></Splash>
           <div className="contents typography">
             <h1>Events</h1>
+            <p>To see more photos from our past events, proceed to the <a href="https://www.facebook.com/MIT-KSA-198424940189002/">MIT KSA Facebook page</a>.</p>
             <p>See the following calendar with the scheduled public events.</p>
             <Calendar/>
           </div>
