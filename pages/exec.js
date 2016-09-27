@@ -27,6 +27,7 @@ const peopleSrc = [
   {id:"wonjune", img: require('../static/exec/wonjune.jpg'), name: 'Wonjune Kang', major: '(2020, Electrical Engineering and Computer Science)', position: 'Freshman Representative', more: `I hate (love) bad puns. I play varsity squash, but love sports in general. You'll probably hear me (try to) sing along when there's a Coldplay song playing.
 `},
   {id:"seri", img: require('../static/exec/seri.jpg'), name: 'Seri Choi', major: '(2020, Computer Science)', position: 'Freshman Representative', more: `I've been playing the violin for about 12 years. I enjoy dancing and wanted to try it, so I joined DT this semester!`},
+  {id:"chiho", img: require('../static/exec/chiho.jpg'), name: 'Chiho Lim', major: '(2020, Computer Science)', position: 'Freshman Representative', more: `I slay ‘em with my melodious voice of a baritone/bass. I was born and raised in Korea but went to school in the States for 8 years. Would love to own a winery in the future.`},
 ];
 
 export default function (props) {
