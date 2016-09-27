@@ -24,6 +24,7 @@ const peopleSrc = [
   {id:"helen", img: require('../static/exec/helen.jpg'), name: 'Helen Bang', major: '(2019, Computer Science)', position: 'Membership Chair'},
   {id:"julia", img: require('../static/exec/julia.jpg'), name: 'Julia Lee', major: '(2019, Computer Science)', position: 'Athletic Chair'},
   {id:"ashley", img: require('../static/exec/ashley.jpg'), name: 'Ashley Lee', major: '(2019, Computer Science and Molecular Biology)', position: 'Culture Chair'},
+  {id:"caitlyn", img: require('../static/exec/caitlyn.jpg'), name: 'Caitlyn Oak', major: '(2018, Brain and Cognitive Sciences)', position: 'Social Chair', more: `I love listening to music and attempting to sing! I like playing basketball and sometimes golf. My all-time favorite TV show is Friends (watched the entire series at least 3 times)!`},
   {id:"wonjune", img: require('../static/exec/wonjune.jpg'), name: 'Wonjune Kang', major: '(2020, Electrical Engineering and Computer Science)', position: 'Freshman Representative', more: `I hate (love) bad puns. I play varsity squash, but love sports in general. You'll probably hear me (try to) sing along when there's a Coldplay song playing.
 `},
   {id:"seri", img: require('../static/exec/seri.jpg'), name: 'Seri Choi', major: '(2020, Computer Science)', position: 'Freshman Representative', more: `I've been playing the violin for about 12 years. I enjoy dancing and wanted to try it, so I joined DT this semester!`},
