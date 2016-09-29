@@ -48,7 +48,7 @@ export default function (props) {
             <h1>MIT KSA Exec</h1>
             {people}
             <div id="studypool"><img src={StudyPoolImg}/>
-              <div>Sponsored by Studypool, Homework Help</div></div>
+              <div>Sponsored by <a href="http://studypool.com">Studypool</a>, Homework Help</div></div>
           </div>
         </div>
       </DocumentTitle>
