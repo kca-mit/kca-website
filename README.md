@@ -1,6 +1,6 @@
-# MIT KSA Website 2016
+# MIT KCA Website 2020
 
-This is the source of the KSA website hosted on MIT infrastructure at <ksa.mit.edu>.
+This is the source of the KCA website hosted on MIT infrastructure at <ksa.mit.edu>.
 
 The goal is to have a modern-looking, easy to deploy and develop, static website.
 
@@ -16,7 +16,7 @@ client-side interactivity.
 
 ## Goals
 
-- Provide a welcoming information about MIT KSA to the wider MIT community
+- Provide a welcoming information about MIT KCA to the wider MIT community
 - Have an up to date information about the Culture show and current exec team
 - Make the website usable on mobile (read: responsive design)
 
